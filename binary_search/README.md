@@ -4,7 +4,7 @@ A search algorithm to find the position of target in a **sorted data structure**
 
 ## Version1: Find exact
 
-Goal: find the position that equals to target
+**Goal**: find the position that equals to target
 
 ### Algorithm Notes
 
@@ -12,7 +12,7 @@ Goal: find the position that equals to target
 
 2. `mid = (start + end) // 2` $\Rightarrow$ the middle point of the first and last search position
 
-    * note when length `end - start + 1` is even, the midpoint is the one closer to `start` due to floor<br><br>
+    * note when length `end - start + 1` is even, the midpoint is the one closer to `start` due to floor
 
 3. It needs to search for every possible positions, so while loop ends when `start > end`
 
